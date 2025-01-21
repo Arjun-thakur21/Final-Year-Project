@@ -1,0 +1,154 @@
+/* filepath: /d:/Arjun/project/bearing-fault-diagnosis/static/css/styles.css */
+body {
+    background-color: #f8f9fa;
+}
+
+.header {
+    margin-bottom: 30px;
+}
+
+.result-table {
+    overflow-x: auto;
+}
+
+.result-table table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.result-table th, .result-table td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.result-table th {
+    background-color: #f2f2f2;
+}
+
+.result-table .table {
+    margin-bottom: 0;
+}
+
+.result-table .table-hover tbody tr:hover {
+    background-color: #f1f1f1;
+}
+.text-center img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+
+/* filepath: /d:/Arjun/project/bearing-fault-diagnosis/static/css/styles.css */
+/* filepath: /d:/Arjun/project/bearing-fault-diagnosis/static/css/styles.css */
+/* filepath: /d:/Arjun/project/bearing-fault-diagnosis/static/css/styles.css */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0; /* Ensure no margin around the body */
+    padding: 0; /* Ensure no padding around the body */
+    color: #ffffff; /* Ensure text color is white for visibility */
+}
+
+.header {
+    position: relative;
+    height: 100vh;
+    background: url("/static/images/background.jpg") no-repeat center center/cover; /* Apply background image to the header */
+    margin: 0; /* Remove margin below the header */
+    padding: 0; /* Remove padding inside the header */
+    color: inherit; /* Inherit text color from body */
+}
+
+.header .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.header .container {
+    position: relative;
+    z-index: 2;
+}
+
+.header h1 {
+    animation: fadeInDown 1s ease-in-out;
+}
+
+.header p {
+    animation: fadeInUp 1s ease-in-out;
+}
+
+@keyframes fadeInDown {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.bg-light {
+    background-color: #f8f9fa !important;
+}
+
+.bg-dark {
+    background-color: #343a40 !important;
+}
+
+.text-white-50 {
+    color: rgba(255, 255, 255, 0.5) !important;
+}
+
+.theme-dark {
+    background-color: #343a40;
+    color: #ffffff;
+}
+
+.theme-light {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.navbar-brand .logo {
+    height: 60px; /* Increase the height of the logo */
+}
+
+/* Ensure no margin or padding for sections following the header */
+section {
+    margin: 0;
+    padding: 0;
+    /* Apply background image to the sections */
+    color: #000000; /* Ensure text color is black for visibility */
+}
+
+/* Add animations for elements within the section */
+section .animated {
+    opacity: 0;
+    animation: fadeIn 2s ease-in-out forwards;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/* Specific styling for the result page */
